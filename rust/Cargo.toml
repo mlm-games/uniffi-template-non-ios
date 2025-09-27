@@ -1,10 +1,6 @@
 [workspace]
 
-members = [
-    "foobar",
-    "uniffi-bindgen",
-    "uniffi-bindgen-swift",
-]
+members = ["foobar", "uniffi-bindgen"]
 resolver = "2"
 
 [workspace.dependencies]

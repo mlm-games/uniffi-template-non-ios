@@ -56,20 +56,6 @@ to demonstrate the Rust API.
 * Also check `Cargo.toml` and the overall workspace structure to see how a UniFFI project needs to be structured on the Rust side.
 * Check out `rust-toolchain.toml`; **if you aren't using `rustup`, this is your checklist of toolchains to install!**
 
-### iOS
-
-Before opening up the Swift package in Xcode, you need to build the Rust core.
-
-```shell
-cd rust/
-./build-ios.sh
-```
-
-This generates an XCFramework and generates Swift bindings to the Rust core.
-Check the script if you're interested in the gritty details.
-
-**You need to do this every time you make Rust changes that you want reflected in the Swift Package!**
-
 #### Stuff to look at
 
 * `Package.swift` documents the UniFFI setup (which is... special thanks to SPM quirks).
