@@ -4,4 +4,4 @@ members = ["foobar", "uniffi-bindgen"]
 resolver = "2"
 
 [workspace.dependencies]
-uniffi = "0.28.2"
+uniffi = "0.31.1"
